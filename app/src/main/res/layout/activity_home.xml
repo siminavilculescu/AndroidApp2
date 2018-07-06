@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/productivitate"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/photo1"
+            android:text="Productivitate"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/performanta"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/photo2"
+            android:text="Performanță"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/securitate"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/photo3"
+            android:text="Securitate"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/enterteinment"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/photo4"
+            android:text="Entertainment"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80d8ff">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toate" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carduri activate" />
+
+    </android.support.design.widget.TabLayout>
+
+</android.support.design.widget.CoordinatorLayout>

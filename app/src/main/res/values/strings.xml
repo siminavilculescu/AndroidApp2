@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="reorganizare_iconuri">Organizeaza in foldere iconurile din pagina de start</string>
+    <string name="anunta_ma_cand_petrec_prea_mult_timp_pe_facebook">Anunta-ma cand petrec prea mult timp pe Facebook</string>
+    <string name="inchide_telefonul_la_ora_prestabilita">Inchide telefonul la ora prestabilita</string>
+    <string name="sa_fiu_anuntat_cand_sunt_deconectat_de_la_internet">Sa fiu anuntat cand sunt deconectat de la internet</string>
+    <string name="sa_fiu_anuntat_cand_bateria_e_incarcata_complet">Sa fiu anuntat cand bateria e incarcata complet</string>
+    <string name="sa_fiu_anuntat_cand_bateria_ajunge_la_un_anumit_nivel">Sa fiu anuntat cand bateria ajunge la un anumit nivel</string>
+    <string name="la_scoaterea_castilor_volumul_pentru_media_sa_fie_redus_la_zero">la scoaterea castilor, volumul pentru media sa fie redus la zero</string>
+    <string name="sa_se_deschida_youtube_cand_castile_sunt_conectate_la_telefon">Sa se deschida Youtube cand castile sunt conectate la telefon</string>
+    <string name="cand_e_timpul_pentru_somnic_telefonul_sa_treaca_in_modul_silentios">Cand e timpul pentru somnic, telefonul sa treaca in modul silentios</string>
+    <string name="seteaza_o_noua_imagine_de_background_pentru_pagina_de_pornire">Seteaza o noua imagine de background pentru pagina de pornire</string>
+    <string name="anunta_ma_cand_emailul_meu_a_fost_spart">Anunta-ma cand emailul meu a fost spart</string>
+    <string name="sa_se_efectueze_o_curatare_a_telefonului_cand_e_necesara">Sa se efectueze o curatare a telefonului cand e necesara</string>
+    <string name="full">Baterie Plina</string>
+    <string name="enabled">Pornit</string>
+    <string name="vibrate">Vibrare</string>
+    <string name="sound">Sunet</string>
+    <string name="feedback">Feedback</string>
+    <string name="email">simina.vilculescu20@gmail.com</string>
+    <string name="no_email">Instaleaza un client de email.</string>
+</resources>

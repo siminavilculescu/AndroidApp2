@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categorii.Productivitate">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card1"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="vertical">
+
+   <ImageView
+       android:id="@+id/function1"
+       android:clickable="true"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:background="@drawable/photo4"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="#73151515"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/function1"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Productivitate"
+        android:textColor="#fff"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/function1"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/reorganizare_iconuri"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/card1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/function2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/photo4"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:background="#73151515"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/function2"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Productivitate"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/function2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/anunta_ma_cand_petrec_prea_mult_timp_pe_facebook"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/card1"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/function3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/photo4"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:background="#73151515"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/function3"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Productivitate"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/function3"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/inchide_telefonul_la_ora_prestabilita"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
